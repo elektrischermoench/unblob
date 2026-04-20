@@ -6,6 +6,7 @@ authors = [{ name = "ONEKEY", email = "support@onekey.com" }]
 # Operators supported: https://packaging.python.org/en/latest/specifications/version-specifiers/#id5
 dependencies = [
   "arpy>=2.3.0",
+  "asn1crypto>=1.5.1",
   "attrs>=23.1.0",
   "click>=8.1.7",
   "cryptography>=41.0",
@@ -19,11 +20,14 @@ dependencies = [
   "pluggy>=1.3.0",
   "pydantic>=2.0",
   "pyfatfs>=1.0.5",
+  "pyhpke>=0.6.4",
   "pymdown-extensions>=10.15",
   "pyperscan>=0.3.0",
+  "python-aea>=1.1",
   "python-magic>=0.4.27",
   "pyzstd>0.16.2",
   "rarfile>=4.1",
+  "requests>=2.32.5",
   "rich>=13.3.5",
   "structlog>=24.1.0",
   "treelib>=1.7.0",

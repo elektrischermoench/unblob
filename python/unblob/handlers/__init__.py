@@ -18,6 +18,7 @@ from .archive import (
     zip as ziparchive,
 )
 from .archive.autel import ecc
+from .archive.apple import aea
 from .archive.dlink import alpha_encimg, deafbead, encrpted_img, fpkg, shrs
 from .archive.engeniustech import engenius
 from .archive.hp import bdl, ipkg
@@ -103,6 +104,7 @@ BUILTIN_HANDLERS: Handlers = (
     ar.ARHandler,
     arc.ARCHandler,
     arj.ARJHandler,
+    aea.AEAHandler,
     cab.CABHandler,
     msi.MsiHandler,
     tar.TarUstarHandler,
